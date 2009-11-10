@@ -1,0 +1,11 @@
+Drop this "metacity-nothing-theme" directory into ~/themes and rename it to
+"nothing", so that you have the following path to the theme xml file:
+
+~/.themes/nothing/metacity-1/metacity-theme-1.xml
+
+Or just run the following two commands:
+
+$ mkdir -p ~/.themes/nothing/metacity-1
+$ wget http://github.com/mackstann/metacity-nothing-theme/\
+raw/master/metacity-1/metacity-theme-1.xml -O \
+~/.themes/nothing/metacity-1/metacity-theme-1.xml
